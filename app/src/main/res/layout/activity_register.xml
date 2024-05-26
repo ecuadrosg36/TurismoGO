@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Titulo_Publicación"
+        android:importantForAccessibility="yes"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Descripción_Publicación"
+        android:importantForAccessibility="yes"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_ubicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Locación"
+        android:importantForAccessibility="yes"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_datepublicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Fecha_Publicación"
+        android:importantForAccessibility="yes"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/et_precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Precio"
+        android:importantForAccessibility="yes"
+        android:inputType="numberDecimal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/disponible" />
+
+        <Switch
+            android:id="@+id/sw_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_publicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/Cargar_Publicación" />
+</LinearLayout>
