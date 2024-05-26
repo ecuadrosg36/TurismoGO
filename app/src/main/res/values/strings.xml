@@ -1,5 +1,17 @@
 <resources>
-    <string name="app_name">TurismoGO</string>
+    <string name="app_name">TurismoGo</string>
+    <string-array name="excursion_list">
+        <item>Tour Chachapoyas</item>
+        <item>Tour Kuelap</item>
+        <item>Tour Lineas de Nazca</item>
+        <item>Tour Amazonas</item>
+        <item>Tour Chancay</item>
+    </string-array>
+    <string name="paragraph_text">
+        Empresa: Carlitos tours
+        Ubicación: Plaza norte
+        Precio: S/. 210
+    </string>
     <string name="Titulo_Publicación">Nombre Publicación</string>
     <string name="Descripción_Publicación">Descripción</string>
     <string name="Locación">Ubicación</string>
