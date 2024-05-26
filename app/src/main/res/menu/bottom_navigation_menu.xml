@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_info"
+        android:icon="@drawable/ic_info"
+        android:title="@string/info" />
+    <item
+        android:id="@+id/navigation_booking"
+        android:icon="@drawable/ic_booking"
+        android:title="@string/booking" />
+    <item
+        android:id="@+id/navigation_messages"
+        android:icon="@drawable/ic_messages"
+        android:title="@string/messages" />
+</menu>
