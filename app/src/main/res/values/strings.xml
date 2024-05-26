@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">TurismoGo</string>
+    <string name="Titulo_Publicación">Nombre Publicación</string>
+    <string name="Descripción_Publicación">Descripción</string>
+    <string name="Locación">Ubicación</string>
+    <string name="Itinerario">Itinerario</string>
+    <string name="Precio">Precio</string>
+    <string name="Fecha_Publicación">Fecha Publicación</string>
+    <string name="disponible">disponible</string>
+    <string name="Subir_Imagen">Subir Fotos</string>
+    <string name="Cargar_Publicación">Publicar</string>
+
 </resources>
