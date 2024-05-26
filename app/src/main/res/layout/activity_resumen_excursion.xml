@@ -55,32 +55,21 @@
                 android:id="@+id/imageView5"
                 android:layout_width="175dp"
                 android:layout_height="130dp"
-                app:srcCompat="@drawable/Amazonas"
-                tools:layout_editor_absoluteX="211dp"
-                tools:layout_editor_absoluteY="26dp" />
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tour Kuelap"
-                android:textStyle="bold"
-                tools:layout_editor_absoluteX="14dp"
-                tools:layout_editor_absoluteY="21dp" />
-
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TextView"
-                tools:layout_editor_absoluteX="24dp"
-                tools:layout_editor_absoluteY="59dp" />
+                android:layout_marginStart="227dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/Amazonas" />
 
             <LinearLayout
+                android:id="@+id/linearLayout2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="16dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="21dp">
 
                 <TextView
                     android:id="@+id/paragraph_text_view"
@@ -93,11 +82,14 @@
                     android:textColor="@android:color/black"
                     android:textSize="16sp" />
 
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tour Kuelap"
+                    android:textStyle="bold" />
+
             </LinearLayout>
-
-
-
-
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -112,22 +104,27 @@
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
                 android:text="Tour Chachapoyas Descripcion"
-                tools:layout_editor_absoluteX="20dp"
-                tools:layout_editor_absoluteY="15dp" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/second_paragraph_text_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
                 android:background="@android:color/white"
                 android:lineSpacingExtra="4dp"
                 android:padding="16dp"
                 android:text="@string/second_paragraph_text"
                 android:textColor="@android:color/black"
                 android:textSize="16sp"
-                tools:layout_editor_absoluteX="30dp"
-                tools:layout_editor_absoluteY="87dp" />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView4" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
