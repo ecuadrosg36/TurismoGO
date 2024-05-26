@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">TurismoGo</string>
-
     <string-array name="excursion_list">
         <item>Tour Chachapoyas</item>
         <item>Tour Kuelap</item>
@@ -13,7 +12,6 @@
         Ubicación: Plaza norte
         Precio: S/. 210
     </string>
-
     <string name="second_paragraph_text">
         Elige la duración de tu estancia en el lodge y disfruta de la biodiversidad del lugar,
         el avistamiento de aves, la ruta de primates, la flora autóctona, la pesca artesanal,
@@ -23,4 +21,34 @@
         le aportarán a nuestros visitantes tanto en la visita a la Reserva Nacional Pacaya Samiria
         como en la Reserva Privada de nuestro ecolodge.
     </string>
+    <string name="Titulo_Publicación">Nombre Publicación</string>
+    <string name="Descripción_Publicación">Descripción</string>
+    <string name="Locación">Ubicación</string>
+    <string name="Itinerario">Itinerario</string>
+    <string name="Precio">Precio</string>
+    <string name="Fecha_Publicación">Fecha Publicación</string>
+    <string name="disponible">Disponible</string>
+    <string name="Subir_Imagen">Subir Fotos</string>
+    <string name="Cargar_Publicación">Publicar</string>
+    <string name="login">Login</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="email_hint">Mail</string>
+    <string name="password_hint">Password</string>
+    <string name="error_email">Please enter your email</string>
+    <string name="error_password">Please enter your password</string>
+    <string name="sign_up_user">Sign Up User</string>
+    <string name="sign_up_company">Sign Up Company</string>
+    <string name="search">Search</string>
+    <string name="user">User</string>
+    <string name="settings">Settings</string>
+    <string name="ruc_hint">RUC</string>
+    <string name="company_name_hint">Razón social</string>
+    <string name="register">Registrar</string>
+    <string name="cancel">Salir</string>
+    <string name="name">Name</string>
+    <string name="booking">Booking</string>
+    <string name="aboard">Aboard</string>
+    <string name="info">Info</string>
+    <string name="messages">Messages</string>
 </resources>

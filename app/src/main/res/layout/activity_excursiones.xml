@@ -43,7 +43,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Spinner
-                android:id="@+id/Excursion_spinner"
+                android:id="@+id/excursion_spinner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:layout_editor_absoluteX="39dp"
@@ -91,6 +91,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/imageView2"
                         app:srcCompat="@drawable/Kuelap" />
+
 
                     <CheckBox
                         android:id="@+id/checkBox"
