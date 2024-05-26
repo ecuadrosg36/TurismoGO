@@ -33,8 +33,8 @@ class LoginActivity : AppCompatActivity() {
             if (validateInput(email, password)) {
                 // Check if email and password match the hardcoded values
                 if (email == "prueba@gmail.com" && password == "prueba") {
-                    // Redirect to HomeActivity
-                    val intent = Intent(this, HomeActivity::class.java)
+                    // Redirect to MenuActivity
+                    val intent = Intent(this, MenuActivity::class.java)
                     startActivity(intent)
                     finish() // Optional: to close LoginActivity
                 } else {

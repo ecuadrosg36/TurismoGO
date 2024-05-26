@@ -43,7 +43,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Spinner
-                android:id="@+id/Excursion_spinner"
+                android:id="@+id/excursion_spinner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:layout_editor_absoluteX="39dp"
@@ -78,7 +78,7 @@
                         android:id="@+id/imageView2"
                         android:layout_width="181dp"
                         android:layout_height="114dp"
-                        app:srcCompat="@drawable/Nazca"
+                        app:srcCompat="@drawable/nazca"
                         tools:layout_editor_absoluteX="175dp"
                         tools:layout_editor_absoluteY="143dp" />
 
@@ -86,7 +86,7 @@
                         android:id="@+id/imageView3"
                         android:layout_width="183dp"
                         android:layout_height="116dp"
-                        app:srcCompat="@drawable/Kuelap"
+                        app:srcCompat="@drawable/kuelap"
                         tools:layout_editor_absoluteX="173dp"
                         tools:layout_editor_absoluteY="269dp" />
 
@@ -121,7 +121,7 @@
                         android:id="@+id/imageView4"
                         android:layout_width="183dp"
                         android:layout_height="114dp"
-                        app:srcCompat="@drawable/Amazonas"
+                        app:srcCompat="@drawable/amazonas"
                         tools:layout_editor_absoluteX="175dp"
                         tools:layout_editor_absoluteY="400dp" />
 

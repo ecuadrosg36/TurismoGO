@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.turismogo.MenuFragment"
+        android:label="Menu"
+        tools:layout="@layout/activity_menu">
+        <action
+            android:id="@+id/action_menuFragment_to_excursionesActivity"
+            app:destination="@id/excursionesActivity" />
+        <action
+            android:id="@+id/action_menuFragment_to_historialActividadesActivity"
+            app:destination="@id/historialActividadesActivity" />
+        <action
+            android:id="@+id/action_menuFragment_to_historialUsuariosActivity"
+            app:destination="@id/historialUsuariosActivity" />
+        <action
+            android:id="@+id/action_menuFragment_to_homeActivity"
+            app:destination="@id/homeActivity" />
+        <action
+            android:id="@+id/action_menuFragment_to_registerActivity"
+            app:destination="@id/registerActivity" />
+        <action
+            android:id="@+id/action_menuFragment_to_resumenExcursionActivity"
+            app:destination="@id/resumenExcursionActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/excursionesActivity"
+        android:name="com.example.turismogo.ExcursionesActivity"
+        android:label="Excursiones"
+        tools:layout="@layout/activity_excursiones" />
+
+    <fragment
+        android:id="@+id/historialActividadesActivity"
+        android:name="com.example.turismogo.historial_actividades"
+        android:label="Historial Actividades"
+        tools:layout="@layout/activity_historial_actividades" />
+
+    <fragment
+        android:id="@+id/historialUsuariosActivity"
+        android:name="com.example.turismogo.historial_usuarios"
+        android:label="Historial Usuarios"
+        tools:layout="@layout/activity_historial_usuarios" />
+
+    <fragment
+        android:id="@+id/homeActivity"
+        android:name="com.example.turismogo.HomeActivity"
+        android:label="Home"
+        tools:layout="@layout/activity_home" />
+
+    <fragment
+        android:id="@+id/registerActivity"
+        android:name="com.example.turismogo.RegisterActivity"
+        android:label="Register"
+        tools:layout="@layout/activity_register" />
+
+    <fragment
+        android:id="@+id/resumenExcursionActivity"
+        android:name="com.example.turismogo.ResumenExcursionActivity"
+        android:label="Resumen Excursion"
+        tools:layout="@layout/activity_resumen_excursion" />
+
+</navigation>
