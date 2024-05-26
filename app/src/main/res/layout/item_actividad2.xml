@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/excursionNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del cliente"
+        android:layout_marginBottom="4dp"/>
+    <TextView
+        android:id="@+id/excursionTelephoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="telefono del cliente"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/excursionDniTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dni del cliente"
+        android:layout_marginBottom="4dp"/>
+    <TextView
+        android:id="@+id/excursionTourTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de la Excursión"
+        android:layout_marginBottom="4dp"/>
+    <TextView
+        android:id="@+id/excursionDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de la Excursión"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/excursionRatingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puntuación: 0.0"
+        android:layout_marginBottom="4dp"/>
+
+</LinearLayout>
