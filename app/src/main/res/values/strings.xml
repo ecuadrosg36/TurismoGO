@@ -13,4 +13,14 @@
         Ubicación: Plaza norte
         Precio: S/. 210
     </string>
+
+    <string name="second_paragraph_text">
+        Elige la duración de tu estancia en el lodge y disfruta de la biodiversidad del lugar,
+        el avistamiento de aves, la ruta de primates, la flora autóctona, la pesca artesanal,
+        la liberación de taricayas (tortugas de río), la cultura sostenible de los locales
+        y la cosmovisión amazónica (experiencia que trasciende la observación del entorno);
+        conocimiento ancestral que nuestros guías, naturalistas y expertos,
+        le aportarán a nuestros visitantes tanto en la visita a la Reserva Nacional Pacaya Samiria
+        como en la Reserva Privada de nuestro ecolodge.
+    </string>
 </resources>
