@@ -58,10 +58,15 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.fragment.ktx)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
+    implementation(libs.androidx.activity)
+    implementation(libs.androidx.constraintlayout)
     implementation("androidx.constraintlayout:constraintlayout:2.1.4") // Add constraint layout dependency
     implementation("androidx.appcompat:appcompat:1.4.0") // Add appcompat dependency
-    implementation("com.google.android.material:material:1.4.0")
-    implementation(libs.androidx.gridlayout) // Add Material Design dependency
+    implementation("com.google.android.material:material:1.4.0") // Add Material Design dependency
+    implementation(libs.androidx.gridlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -70,4 +75,3 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 }
-
