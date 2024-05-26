@@ -28,6 +28,12 @@
             android:name=".CreateActivityActivity"
             android:exported="false" />
         <activity
+            android:name=".ResumenExcursionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExcursionesActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
