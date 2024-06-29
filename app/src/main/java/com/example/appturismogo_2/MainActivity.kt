@@ -1,10 +1,12 @@
 package com.example.appturismogo_2
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.appturismogo_2.Anuncios.CrearAnuncio
 import com.example.appturismogo_2.Fragmentos.FragmentChat
 import com.example.appturismogo_2.Fragmentos.FragmentCuenta
 import com.example.appturismogo_2.Fragmentos.FragmentInicio
@@ -40,6 +42,9 @@ class MainActivity : AppCompatActivity() {
                 false
             }
             }
+        }
+        binding.FAB.setOnClickListener{
+            startActivity(Intent(this, CrearAnuncio::class.java))
         }
 
     }

@@ -15,4 +15,12 @@
     <string name="Btn_ingresar">Ingresar</string>
     <string name="Txt_no_cuenta">¿No tienes una cuenta?</string>
     <string name="Txt_registrarme">REGISTRARME</string>
+
+    <!--Crear Anuncio-->
+    <string name = "Et_nombre"> Nombre del Anuncio</string>
+    <string name = "Categoria"> Categoría</string>
+    <string name = "Locación"> Locacion</string>
+    <string name = "Et_precio"> Precio</string>
+    <string name = "Et_descripción"> Descripción</string>
+    <string name = "btn_Crear_Anuncio"> Crear Anuncio</string>
 </resources>
