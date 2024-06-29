@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AppTurismoGO_2</string>
+    <string name="Item_Inicio">Home</string>
+    <string name="Item_vender">Publicar</string>
+    <string name="Item_Mis_Anuncios">Mis Anuncios</string>
+    <string name="Item_Cuenta">Mi Cuenta</string>
+    <string name="Item_Chat">Chat</string>
+    <string name="Titulo">TituloRL</string>
+    <string name="Ingresar_Email">Ingresar con Email</string>
+    <string name="Ingresar_Google">Ingresar con Google</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
